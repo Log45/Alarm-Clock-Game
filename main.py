@@ -44,7 +44,9 @@ Red_Buttons = []
 def random_red():
   Button_list = list(Buttons)
   if len(buttons_pressed) == len(buttons_to_press) or len(buttons_pressed) == 0 or 1:
-    if score <= score_limit:
+    #print(f"Buttons Pressed: {buttons_pressed}")
+    #print(f"Buttons to press: {buttons_to_press}")
+    if score <= score_limit: #  THIS IS PROBABLY WHAT NEEDS TO BE CHANGED FOR IT TO NEED PREVIOUS PRESSES
       random_button = rand.randint(0, (number_of_buttons_var))
       red_button = Buttons[random_button]
       Buttons[random_button].config(bg="red")
@@ -63,9 +65,11 @@ def check_press(button):
   button_int = button
   pressed_button_var = Buttons[button_int]
   buttons_pressed.append(pressed_button_var)
+  #print(f"Buttons Pressed: {buttons_pressed}")
   for i in Red_Buttons:
     i_int = Red_Buttons.index(i)
     buttons_to_press.append(pressed_button_var)
+    #print(f"Buttons to Press: {buttons_to_press}")
     if buttons_pressed[i_int] == Red_Buttons[i_int]:
       Same_Button = True
     else:
@@ -109,5 +113,8 @@ Start_Button.grid(row=1, column=0, columnspan=(column_length))
 #This list stores the values of the buttons that are pressed. 
 buttons_pressed = []
 buttons_to_press = []
+
+print(buttons_pressed)
+print(buttons_to_press)
 
 root.mainloop()
