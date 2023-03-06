@@ -1,7 +1,0 @@
-Buttons Pressed: [<tkinter.Button object .!button5>, <tkinter.Button object .!button>, <tkinter.Button object .!button6>, <tkinter.Button object .!button6>, <tkinter.Button object .!button3>, <tkinter.Button object .!button>]
-
-
-Buttons to press: [<tkinter.Button object .!button5>, <tkinter.Button object .!button>, <tkinter.Button object .!button>, <tkinter.Button object .!button6>, <tkinter.Button object .!button6>, <tkinter.Button object .!button6>, 
-<tkinter.Button object .!button6>, <tkinter.Button object .!button6>, <tkinter.Button object .!button6>, <tkinter.Button object .!button6>, <tkinter.Button object .!button3>, <tkinter.Button object .!button3>, <tkinter.Button object .!button3>, 
-<tkinter.Button object .!button3>, <tkinter.Button object .!button3>, <tkinter.Button object .!button>, <tkinter.Button object .!button>, <tkinter.Button object .!button>, <tkinter.Button object .!button>, <tkinter.Button object .!button>, 
-<tkinter.Button object .!button>]
